@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bootswatch.com/4/lumen/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/d83c9c9ae8.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container pt-4">
+        <div class="row">
+            <div class="col-md-4 mx-auto text-center">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fas fa-cloud-sun float-left"></i>
+                        Clima
+                    </div>
+                    <div class="card-body">
+                        <h1 id="clima" class="h3"></h1>
+                        <h3 id="descripcion" class="h4"></h3>
+                        <h3 id="string"></h3>
+                        <ul class="list-group mt-3">
+                            <li id="humedad" class="list-group-item"></li>
+                            <li id="viento" class="list-group-item"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <form id="form">
+                            <div class="form-group">
+                                <input id="ciudad" class="form-control" type="text" placeholder="Ciudad" autofocus>
+                            </div>
+                            <div class="form-group">
+                                <button id="boton" class="btn btn-primary btn-block">
+                                    Buscar
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
